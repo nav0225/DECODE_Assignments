@@ -6,7 +6,7 @@ int main(){
     cout<<"Enter radius and height of cylinder: \n";
     cin >> rad >> height;
     float vol;
-    vol = 2*pi*rad*height;
+    vol = pi*rad*rad*height;
     cout<< "volume of the cylinder is: "<< vol;
 
     return 0;
